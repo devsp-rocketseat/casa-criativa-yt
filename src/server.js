@@ -1,17 +1,17 @@
 const express = require('express')
 const server = express()
-const db = require('./db')
+const db = require('./db/db')
 
 
 // servindo arquivos estaticos 
-server.use(express.static('public'))
+server.use(express.static('src/public'))
 
 // habilitando req.body 
 server.use(express.urlencoded({ extended: true }))
 
 // configurando o nunjucks
 const nunjucks = require('nunjucks')
-nunjucks.configure('views', { express: server, noCache: true })
+nunjucks.configure('src/public/views', { express: server, noCache: true })
 
 
 // criando as rotas

@@ -1,5 +1,6 @@
 const sqlite3 = require('sqlite3').verbose()
-const db = new sqlite3.Database('./ws.db')
+// const db = new sqlite3.Database('./ws.db')
+const db = new sqlite3.Database('src/db/ws.db')
 
 db.serialize(function () {
 
