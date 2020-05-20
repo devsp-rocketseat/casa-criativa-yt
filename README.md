@@ -58,4 +58,4 @@ Esse foi um projeto desenvolvido em paralelo com a semana omni stack 11, na [Wor
 
 ---
 
-<h5 align='center' >Feito com :purple_heart: por [devsp011](https://github.com/devsp011)</h5>
+<h5 align='center' >Feito com :purple_heart: por <a href="https://github.com/devsp011" target="_blank">DevSp</a> </h5>
